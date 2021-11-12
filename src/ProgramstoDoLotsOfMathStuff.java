@@ -24,14 +24,14 @@ public class ProgramstoDoLotsOfMathStuff {
             String Radian = scanner.nextLine();
             int a = Integer.parseInt(Radian);
             int b = (int) (a * (3.141592653589793 / 180));
-            System.out.println("Here is your Radian " + b);
+            System.out.println("Here is your Radian " + b + " Rad");
         } else if (i == 2) {
             System.out.println("Performing Radian to Degree");
             System.out.println("Type in your Radian");
             String Degree = scanner.nextLine();
             int c = Integer.parseInt(Degree);
             int d = (int) (c * (180 / 3.141592653589793));
-            System.out.println("Here is your Radian " + d);
+            System.out.println("Here is your Degree " + d + "°");
         } else if (i == 3) {
             System.out.println("Performing Surface volume and area of cylinder");
             System.out.println("Type in your Radius");
