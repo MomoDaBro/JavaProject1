@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class ThreeDigit {
+
+public class ThreeDigitUsingModulus {
 
     public static void main(String[] args){
 
@@ -16,7 +17,7 @@ public class ThreeDigit {
 
         int first = (digits-(third*100)-(second*10));
         System.out.println("There is a " + first + " in the first digit place");
-        
-        
+
+
     }
 }
