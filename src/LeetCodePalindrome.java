@@ -14,9 +14,13 @@ public class LeetCodePalindrome {
 
         return abc.equals(y);
     }
+// this is shehabs built diff argument
+//    public static boolean isPalindrome(int x) {
+//        return new StringBuilder().append(x).reverse().toString().equals(Integer.toString(x));
+//    }
 
     public static void main(String[] args) {
-        int x = 121;
+        int x = 1234567899;
         isPalindrome(x);
         String ExpectedOutput = "true";
         System.out.println(isPalindrome(x));
