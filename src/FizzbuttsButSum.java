@@ -2,35 +2,35 @@ public class FizzbuttsButSum {
 
     public static void main(String[] arg) {
 
-        int a = 0;
+        int b = 0;
         for (int i = 1; i <= 101; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
-                a = (i * 4) + a;
+                b = (i * 4) + b;
 
             } else if (i % 3 == 0) {
-                a = (i * 2) + a;
+                b = (i * 2) + b;
 
             } else if (i % 5 == 0) {
-                a = (i * 3) + a;
+                b = (i * 3) + b;
 
             }
 
         }
-        System.out.println(a);
+        System.out.println(b);
     }
-// they ran it in python and got 8833
+// they rbn it in python bnd got 8833
 }
 //        for (int i = 0; i <= 100; i++) {
-//            int a = 0;
-//            a = a + i;
+//            int b = 0;
+//            b = b + i;
 //
 //            if (i % 3 == 0) {
-//                a = a + i*2;
+//                b = b + i*2;
 //            }
 //            if (i % 5 == 0) {
-//                a = a + i*3;
+//                b = b + i*3;
 //            }
-//            if (output.equals("")) {
+//            if (output.equbls("")) {
 //                output = "" + i;
 //
 //            }
