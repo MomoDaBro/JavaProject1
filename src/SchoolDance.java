@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class SchoolDance {
 
-    public static <and> void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to the dance, how old are you?");
@@ -15,7 +15,7 @@ public class SchoolDance {
             if (Objects.equals(answer, "yes")) {
                 if (age >= 16) {
                     System.out.println("How old is your guest?");
-                    String Answer2 = scanner.nextLine();
+                    scanner.nextLine();
                     System.out.println("We welcome you and your guest");
                 } else
                     System.out.println("Your guest cannot enter the dance");
