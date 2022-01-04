@@ -16,7 +16,6 @@ public class SchoolDance {
                 if (age >= 16) {
                     System.out.println("How old is your guest?");
                     String Answer2 = scanner.nextLine();
-                    System.out.println("Thank you for your cooperation");
                     System.out.println("We welcome you and your guest");
                 } else
                     System.out.println("Your guest cannot enter the dance");
