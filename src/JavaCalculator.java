@@ -3,7 +3,10 @@ import java.lang.Math;
 
 public class JavaCalculator {
 
-    public static int main(String[] args) {
+    public static void main(String[] args) {
+        calculator();
+    }
+    public static void calculator(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give me a value for the first side of a triangle.");
         String side1 = scanner.nextLine();
@@ -15,9 +18,9 @@ public class JavaCalculator {
         b = b*b;
         int c = a+b;
         c = (int) Math.sqrt(c);
-        return c;
-
+        System.out.println(c);
 
     }
+
 
 }
