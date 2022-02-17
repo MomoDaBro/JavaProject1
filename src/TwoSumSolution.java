@@ -14,8 +14,8 @@ public class TwoSumSolution {
     }
 
     public static void main(String[] args) {
-        int[] nums = {3, 0,0,0,0,0, 3};
-        int target = 6;
+        int[] nums = {3, 0,0,0,0,6, 0};
+        int target = 9;
         int[] ExpectedOutput = {0, 6};
         int[] ActualOutput = twoSum(nums, target);
         System.out.println(Arrays.toString(ActualOutput));
